@@ -1,7 +1,7 @@
 //program to find greatest number smaller than or equal to target in an array
 public class Main
 {
-	static int ceiling(int[] arr, int target){
+	static int floor(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
 
