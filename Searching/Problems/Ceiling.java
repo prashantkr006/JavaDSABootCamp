@@ -1,3 +1,4 @@
+// program to find smallest number greater than target in an array
 public class Main
 {
 	static int ceiling(int[] arr, int target){
