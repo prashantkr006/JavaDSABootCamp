@@ -1,4 +1,4 @@
-//program to find greatest number smaller than target in an array
+//program to find greatest number smaller than or equal to target in an array
 public class Main
 {
 	static int ceiling(int[] arr, int target){
