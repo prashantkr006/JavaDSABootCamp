@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaDSABootCamp.iml" filepath="$PROJECT_DIR$/JavaDSABootCamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeProblems/LeetCodeProblems.iml" filepath="$PROJECT_DIR$/LeetCodeProblems/LeetCodeProblems.iml" />
     </modules>
   </component>
 </project>
