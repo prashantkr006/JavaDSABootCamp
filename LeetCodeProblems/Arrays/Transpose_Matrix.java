@@ -4,7 +4,8 @@ public class Transpose_Matrix {
     public static void main(String[] args) {
         int[][] matrix  = {
                 {1,2,3},
-                {4,5,6}
+                {4,5,6},
+                {7,8,9}
         };
 
         System.out.println("matrix before transpose");
@@ -17,14 +18,15 @@ public class Transpose_Matrix {
 
         int rows = matrix.length;
         int col = matrix[0].length;
-        int[][] trasposeMatrix = new int[col][rows];
 
         for(int i = 0; i < rows; i++) {
-            for(int j = 0; j < col; j++) {
-                trasposeMatrix[j][i] = matrix[i][j];
+            for(int j = i; j < col; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
             }
         }
-        return trasposeMatrix;
+        return matrix;
     }
 
     static void printMatrix(int[][] matrix) {
