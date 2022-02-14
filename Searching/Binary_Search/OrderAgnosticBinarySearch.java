@@ -1,3 +1,5 @@
+package Binary_Search;
+
 public class OrderAgnosticBinarySearch {
 
     public int binarySearchAccOrder(int target, int[] arr) { //this function will search the target for both ascending and descending order array
