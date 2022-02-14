@@ -3,6 +3,11 @@ package Sorting;
 import java.util.Arrays;
 
 public class Selection {
+    /*
+    Idea of selection sort( if ascending) pick minimum element swap it to the element of index 0 then move ahead
+    and keep doing it till the whole array is not sorted
+    Time complexity - O(n), Space complexity - O(1)
+     */
     public static void main(String[] args) {
         int[] arr = {7, 2, 9, 6, 1, 5, 4};
         sortAscending(arr);
