@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SearchInInfinity",
+            "request": "launch",
+            "mainClass": "Searching.SearchInInfinity",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInInfinity",
+            "request": "launch",
+            "mainClass": "Searching.Binary_Search.SearchInInfinity",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Unique",
+            "request": "launch",
+            "mainClass": "Arrays.CodeHelp.Unique",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swap_Alternate",
+            "request": "launch",
+            "mainClass": "Arrays.CodeHelp.Swap_Alternate",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
             "name": "Launch Swap_Alternate",
             "request": "launch",
             "mainClass": "LeetCodeProblems.Arrays.Swap_Alternate",

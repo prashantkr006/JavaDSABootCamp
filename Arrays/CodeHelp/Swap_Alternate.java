@@ -1,4 +1,4 @@
-package LeetCodeProblems.Arrays;
+package Arrays.CodeHelp;
 
 import java.util.Arrays;
 
