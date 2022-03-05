@@ -1,4 +1,4 @@
-package Binary_Search;
+package Searching.Binary_Search;
 
 public class OrderAgnosticBinarySearch {
 

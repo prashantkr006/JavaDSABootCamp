@@ -1,3 +1,5 @@
+package methods;
+
 public class OddEve {
 
     static  void isOddEve(int num){

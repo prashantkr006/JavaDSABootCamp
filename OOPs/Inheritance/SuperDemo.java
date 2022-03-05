@@ -1,4 +1,4 @@
-package com.prashant.OOP.Inheritance;
+package OOPs.Inheritance;
 
 class A{
     public A(int i) {

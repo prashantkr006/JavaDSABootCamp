@@ -5,11 +5,10 @@
     -> Integer num = new Integer (10); // wrapper class
     now num will act as an object.
 */
-package com.prashant.OOP;
+package OOPs;
 
 public class Wrapper_Class {
     public static void main(String[] args) {
-        int num = 10; //normal primitive variable
         Integer a = 10; //a will act as an object.
         System.out.println(a + " is type of " + a.getClass().getName());
     }

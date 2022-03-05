@@ -1,4 +1,4 @@
-package com.prashant.OOP.Inheritance;
+package OOPs.Inheritance;
 
 public class Inheritance_Intro {
     public static void main(String[] args) {

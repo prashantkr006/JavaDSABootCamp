@@ -1,9 +1,7 @@
-package com.prashant.OOP;
+package OOPs;
 
 public class SingleTon {
-    private int data;
     private SingleTon() {
-        data = 10;
     }
 
     //creating instance inside the class
@@ -20,9 +18,8 @@ public class SingleTon {
      }
     public static void main(String[] args) {
 
-         //obj, obj2, obj3 all are going to reference on same instance
-         SingleTon obj  = SingleTon.getInstance();
-        SingleTon obj2 = SingleTon.getInstance();
-        SingleTon obj3  = SingleTon.getInstance();
+         SingleTon.getInstance();
+        SingleTon.getInstance();
+        SingleTon.getInstance();
     }
 }

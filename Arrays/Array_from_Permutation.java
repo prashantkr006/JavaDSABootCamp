@@ -1,8 +1,5 @@
 package Arrays;
 
-import java.util.*;
-import java.lang.*;
-
 public class Array_from_Permutation {
 
     public static void main(String[] args) {

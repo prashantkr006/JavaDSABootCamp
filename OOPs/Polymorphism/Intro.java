@@ -1,4 +1,4 @@
-package com.prashant.OOP.Polymorphism;
+package OOPs.Polymorphism;
 /*
 -> Polymorphism means representing a single entity or item in many ways
  */
@@ -12,6 +12,6 @@ public class Intro {
     public static void main(String[] args) {
        // Shape ci = new Circle();
         Shape sq = new Square(10);
-        System.out.println(1/2);
+        System.out.println(sq);
     }
 }

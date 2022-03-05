@@ -1,4 +1,4 @@
-package com.prashant.OOP.Inheritance;
+package OOPs.Inheritance;
 
 public class Box_withWeight extends Box {
     float weight;

@@ -1,7 +1,7 @@
 /*
 final => this is a keyword. It is used to prevent to modify the content
  */
-package com.prashant.OOP;
+package OOPs;
 
 public class Final_in_OOP {
     public static void main(String[] args) {

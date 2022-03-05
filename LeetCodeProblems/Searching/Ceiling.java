@@ -1,5 +1,7 @@
+package LeetCodeProblems.Searching;
+
 // program to find smallest number greater than or equal to target in an array
-public class Main
+public class Ceiling
 {
 	static int ceiling(int[] arr, int target){
         int start = 0;

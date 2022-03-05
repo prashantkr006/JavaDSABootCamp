@@ -1,18 +1,19 @@
-package Binary_Search;
+package Searching.Binary_Search;
 import java.util.*;
 public class Search {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        for(int i = 0; i < n; i++)
-            arr[i] = sc.nextInt();
-        int t = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int[] arr = new int[n];
+            for(int i = 0; i < n; i++)
+                arr[i] = sc.nextInt();
+            int t = sc.nextInt();
 
-        while(t>0){
-            int x = sc.nextInt();
-            System.out.println(searchNum(arr, x));
-            t--;
+            while(t>0){
+                int x = sc.nextInt();
+                System.out.println(searchNum(arr, x));
+                t--;
+            }
         }
     }
     static int searchNum(int[] arr, int x) {

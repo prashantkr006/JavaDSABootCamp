@@ -1,5 +1,4 @@
 package EasyProblems;
-import java.util.Arrays;
 public class Obtained_by_Rotation {
 
     public static void main(String[] args) {

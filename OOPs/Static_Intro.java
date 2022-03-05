@@ -1,4 +1,4 @@
-package com.prashant.OOP;
+package OOPs;
 /*
 Static -> Such properties that are not related to any object but common for all the objects of a class
           are known as static properties.
@@ -40,8 +40,6 @@ public class Static_Intro {
 
 
     public static void main(String[] args) {
-        Human prashant = new Human(21, "Prashant", 15000, false);
-        Human rahul =  new Human();
         //System.out.println(Human.population);
         Static_Intro obj = new Static_Intro();
         obj.fun();
@@ -49,7 +47,7 @@ public class Static_Intro {
         Test t1 = new Test();
         t1.showData();
         t1.y = 100;
-        t1.x = 30;
+        Test.x = 30;
         Test t2 = new Test();
         t2.showData();
         t1.showData();

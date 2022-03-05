@@ -1,4 +1,4 @@
-package com.prashant.OOP;
+package OOPs;
 
 public class OOP_intro {
     public static void main(String[] args) {

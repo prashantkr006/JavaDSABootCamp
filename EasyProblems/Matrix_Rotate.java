@@ -24,6 +24,8 @@ public class Matrix_Rotate extends Transpose_Matrix {
         return matrix;
     }
 
+    private static void transpose(int[][] matrix) {
+    }
     private static void swap(int[] matrix, int num1, int num2) {
         int temp = matrix[num1];
         matrix[num1] = matrix[num2];

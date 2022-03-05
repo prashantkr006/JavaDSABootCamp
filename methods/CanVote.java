@@ -1,3 +1,5 @@
+package methods;
+
 public class CanVote {
 
     static void isVoter(int age){

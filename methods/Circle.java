@@ -13,9 +13,10 @@ public class Circle {
         return area;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        float radius = sc.nextFloat();
+        try (Scanner sc = new Scanner(System.in)) {
+            float radius = sc.nextFloat();
 
-        System.out.println("Area of circle of radius "+ radius + " is " + String.format("%.2f", area(radius)) + "\n and circumference is " + String.format("%.2f", circmference(radius)));
+            System.out.println("Area of circle of radius "+ radius + " is " + String.format("%.2f", area(radius)) + "\n and circumference is " + String.format("%.2f", circmference(radius)));
+        }
     }
 }

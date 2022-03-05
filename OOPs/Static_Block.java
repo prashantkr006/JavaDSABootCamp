@@ -1,6 +1,6 @@
 //Static Block -> we can write set of statements declare them static and it will run once the Main class is executed
 //even if main() function will not call still static block will execute first
-package com.prashant.OOP;
+package OOPs;
 
 public class Static_Block {
     static {

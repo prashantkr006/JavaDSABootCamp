@@ -9,10 +9,11 @@ public class Product {
         return  product;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
 
-        System.out.println(productNum(a, b));
+            System.out.println(productNum(a, b));
+        }
     }
 }

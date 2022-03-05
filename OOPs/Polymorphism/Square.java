@@ -1,4 +1,4 @@
-package com.prashant.OOP.Polymorphism;
+package OOPs.Polymorphism;
 
 public class Square extends Shape {
 

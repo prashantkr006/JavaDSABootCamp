@@ -14,7 +14,6 @@ public class Cell_with_odd_value_in_matrix {
             }
         }
 
-        int row0 = indices[0][0];
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
                 matrix[i][j] = 0;
