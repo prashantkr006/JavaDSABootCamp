@@ -1,19 +1,23 @@
-package Searching;
+package Binary_Search;
 
 public class SearchInInfinity {
     public static void main(String[] args) {
         int[] arr = {1,3,4,12,24,35,45,67,69,71,74,84,102,121,134,137,168,194,200};
-        int target = 102;
-        int op = binarySearch(arr, target);
+        int target = 200;
+        int op = search(arr, target);
         System.out.println(op);
     }
-    static int binarySearch(int[] arr, int target) {
+    static int search(int[] arr, int target) {
         int start = 0;
         int end = start + 1;
-        while(end < target || end <= arr.length) {
-            start = end;
-            end = end * end;
+        while(2 * end < arr.length || end <= target) {
+                end = 2 * end;
         }
+
+        return binarySearch(arr, start, end, target);
+    }
+
+    private static int binarySearch(int[] arr, int start, int end, int target) {
 
         while(start <= end) {
             int mid = start + (end - start) / 2;
@@ -22,7 +26,7 @@ public class SearchInInfinity {
                 return mid;
             else if(arr[mid] < target)
                 start = mid + 1;
-            else 
+            else
                 end = mid - 1;
         }
 
