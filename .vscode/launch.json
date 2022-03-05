@@ -1,0 +1,315 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Swap_Alternate",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.Arrays.Swap_Alternate",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array_from_Permutation",
+            "request": "launch",
+            "mainClass": "Arrays.Array_from_Permutation",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cell_with_odd_value_in_matrix",
+            "request": "launch",
+            "mainClass": "Arrays.Cell_with_odd_value_in_matrix",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concatenation_of_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Concatenation_of_Array",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Items_Matching_aRule",
+            "request": "launch",
+            "mainClass": "Arrays.Items_Matching_aRule",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Richest_Customer_Wealth",
+            "request": "launch",
+            "mainClass": "Arrays.Richest_Customer_Wealth",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Running_Sum",
+            "request": "launch",
+            "mainClass": "Arrays.Running_Sum",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add_to_Array",
+            "request": "launch",
+            "mainClass": "EasyProblems.Add_to_Array",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cells_with_Odd_Values",
+            "request": "launch",
+            "mainClass": "EasyProblems.Cells_with_Odd_Values",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Even_Number_Digits",
+            "request": "launch",
+            "mainClass": "EasyProblems.Even_Number_Digits",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Matrix_Diagonal_Sum",
+            "request": "launch",
+            "mainClass": "EasyProblems.Matrix_Diagonal_Sum",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Matrix_Rotate",
+            "request": "launch",
+            "mainClass": "EasyProblems.Matrix_Rotate",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Obtained_by_Rotation",
+            "request": "launch",
+            "mainClass": "EasyProblems.Obtained_by_Rotation",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Transpose_Matrix",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.Arrays.Transpose_Matrix",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ceiling",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.Searching.Ceiling",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "LeetCodeProblems.Searching.Main",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Final_in_OOP",
+            "request": "launch",
+            "mainClass": "OOPs.Final_in_OOP",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Inheritance_Intro",
+            "request": "launch",
+            "mainClass": "OOPs.Inheritance.Inheritance_Intro",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch SuperDemo",
+            "request": "launch",
+            "mainClass": "OOPs.Inheritance.SuperDemo",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch OOP_intro",
+            "request": "launch",
+            "mainClass": "OOPs.OOP_intro",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Intro",
+            "request": "launch",
+            "mainClass": "OOPs.Polymorphism.Intro",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleTon",
+            "request": "launch",
+            "mainClass": "OOPs.SingleTon",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Static_Block",
+            "request": "launch",
+            "mainClass": "OOPs.Static_Block",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Static_Intro",
+            "request": "launch",
+            "mainClass": "OOPs.Static_Intro",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wrapper_Class",
+            "request": "launch",
+            "mainClass": "OOPs.Wrapper_Class",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "Recursion.Com.Easy.Main",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Search",
+            "request": "launch",
+            "mainClass": "Searching.Binary_Search.Search",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bubble",
+            "request": "launch",
+            "mainClass": "Sorting.Bubble",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort_Ques",
+            "request": "launch",
+            "mainClass": "Sorting.BubbleSort_Ques",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertion",
+            "request": "launch",
+            "mainClass": "Sorting.Insertion",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch InsertionSort_Ques",
+            "request": "launch",
+            "mainClass": "Sorting.InsertionSort_Ques",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeArrays",
+            "request": "launch",
+            "mainClass": "Sorting.MergeArrays",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Selection",
+            "request": "launch",
+            "mainClass": "Sorting.Selection",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch CanVote",
+            "request": "launch",
+            "mainClass": "methods.CanVote",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circle",
+            "request": "launch",
+            "mainClass": "methods.Circle",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialNum",
+            "request": "launch",
+            "mainClass": "methods.FactorialNum",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMax",
+            "request": "launch",
+            "mainClass": "methods.MinMax",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch NaturalNum",
+            "request": "launch",
+            "mainClass": "methods.NaturalNum",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch OddEve",
+            "request": "launch",
+            "mainClass": "methods.OddEve",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNum",
+            "request": "launch",
+            "mainClass": "methods.PrimeNum",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Product",
+            "request": "launch",
+            "mainClass": "methods.Product",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pythagorean",
+            "request": "launch",
+            "mainClass": "methods.Pythagorean",
+            "projectName": "JavaDSABootCamp_95078164"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumNum",
+            "request": "launch",
+            "mainClass": "methods.SumNum",
+            "projectName": "JavaDSABootCamp_95078164"
+        }
+    ]
+}
