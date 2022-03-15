@@ -42,7 +42,7 @@ public class Infix_Evaluation {
                     operators.pop();
             }
             else if(ch == '+' || ch == '-' || ch == '*' || ch == '/') {
-                    while (operators.size() > 0 && !isPrecedenceHigh(ch, operators.peek())) {
+                    while (operators.size() > 0 && (operators.peek() != '(' && !isPrecedenceHigh(ch, operators.peek()))) {
                         char operator = operators.pop();
                         int second_operand = operands.pop();
                         int first_operand = operands.pop();
@@ -80,7 +80,7 @@ public class Infix_Evaluation {
     }
 
     static boolean isPrecedenceHigh(char operator1, char operator2) {
-        if(operator1 == '*' || operator1 == '/' && operator2 == '+' || operator2 == '-')
+        if((operator1 == '*' || operator1 == '/') && (operator2 == '+' || operator2 == '-'))
             return true;
         else return false;
     }
