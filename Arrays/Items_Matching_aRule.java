@@ -25,26 +25,26 @@ public class Items_Matching_aRule {
         newList2.add("iphone");
         list.add(newList2);
         System.out.println(list);
-        System.out.println(countMatches(list,"type","phone"));
+        System.out.println(countMatches(list, "type", "phone"));
     }
+
     static int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
         int count = 0;
-        if(ruleKey.equals("type")){
-            for(int i = 0; i < items.size(); i++) {
-                if(items.get(i).get(0).equals(ruleValue))
-                    count+=1;
+        if (ruleKey.equals("type")) {
+            for (int i = 0; i < items.size(); i++) {
+                if (items.get(i).get(0).equals(ruleValue))
+                    count += 1;
             }
         }
-        if(ruleKey.equals("color")){
-            for(int i = 0; i < items.size(); i++) {
-                if(items.get(i).get(1).equals(ruleValue))
-                    count+=1;
+        if (ruleKey.equals("color")) {
+            for (int i = 0; i < items.size(); i++) {
+                if (items.get(i).get(1).equals(ruleValue))
+                    count += 1;
             }
-        }
-        else {
-            for(int i = 0; i < items.size(); i++) {
-                if(items.get(i).get(2).equals(ruleValue))
-                    count+=1;
+        } else {
+            for (int i = 0; i < items.size(); i++) {
+                if (items.get(i).get(2).equals(ruleValue))
+                    count += 1;
             }
         }
         return count;
