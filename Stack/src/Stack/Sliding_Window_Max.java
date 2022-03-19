@@ -1,30 +1,37 @@
 package Stack;
-import java.io.*;
 import java.util.*;
 
-public class Sliding_Window_Max{
-
-
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int n = Integer.parseInt(br.readLine());
-        int[] a = new int[n];
-        for(int i = 0; i < n; i++){
-            a[i] = Integer.parseInt(br.readLine());
-        }
-        int k = Integer.parseInt(br.readLine());
-
-        // code
-        for(int i = 0; i <= a.length - k; i++)
-        {
-            int j = i;
-            int max = a[j];
-            while(j < i + k) {
-                max = Math.max(max, a[j]);
-                j++;
+public class Sliding_Window_Max {
+    public static void main(String[] args) {
+        try {
+            Scanner sc = new Scanner(System.in);
+            int n = sc.nextInt();
+            int[] arr = new int[n];
+            for(int i = 0; i < n; i++) {
+                arr[i] = sc.nextInt();
             }
-            System.out.println(max);
+            System.out.println(Arrays.toString(maxSlidingWindow(arr, 3)));
+        } catch (Exception e) {
+            //TODO: handle exception
         }
+    }
+
+    public static int[] maxSlidingWindow(int[] nums, int k) throws Exception {
+        int n = nums.length;
+        Stack<Integer> st = new Stack<>();
+        int[] maxWin = new int[n - k];
+        
+        for(int i = 0; i <= n-k; i++) {
+            int max = Integer.MIN_VALUE;
+            for(int j = i; j < i + k; j++) {
+                while(!st.isEmpty() && nums[j] > nums[st.peek()]) {
+                    st.pop();
+                }
+                max = Math.max(nums[j], max);
+                st.push(j);
+            }
+            maxWin[i] = max;
+        }
+    return maxWin;
     }
 }

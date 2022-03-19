@@ -1,58 +1,35 @@
 package Stack;
-import java.io.*;
 import java.util.*;
 
-public class Next_Greater_Element{
-    public static void display(int[] a){
-        StringBuilder sb = new StringBuilder();
+public class Next_Greater_Element {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] arr = new int[n];
 
-        for(int val: a){
-            sb.append(val + "\n");
-        }
-        System.out.println(sb);
-    }
-
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        int n = Integer.parseInt(br.readLine());
-        int[] a = new int[n];
-        for(int i = 0; i < n; i++){
-            a[i] = Integer.parseInt(br.readLine());
+        for(int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
         }
 
-        int[] nge = solve(a);
-        display(nge);
+        System.out.println(Arrays.toString(NGER(arr, n)));
     }
 
-    public static int[] solve(int[] arr){
-        // solve
-        int ans[] = new int[arr.length];
+    static int[] NGER(int[] arr, int n) {
         Stack<Integer> st = new Stack<>();
-
-        //last value of array has no greater element at right side
-        st.push(arr[arr.length - 1]);
-        ans[ans.length - 1] = -1;
-
-        for(int i = arr.length - 2; i >= 0; i--) {
-            if(arr[i] < st.peek()) {
-                ans[i] = st.peek();
-                st.push(arr[i]);
+        int[] ans = new int[n];
+        for(int i = 0; i < n; i++) {
+            while(st.size() > 0 && arr[i] > arr[st.peek()]) {
+               int pos =  st.pop();
+               ans[pos] = arr[i];
             }
-            else {
-                while(st.peek() <= arr[i]  && st.size() >= 1) {
-                    st.pop();
-                }
-                if(st.isEmpty()) {
-                    ans[i] = -1;
-                }
-                else {
-                    ans[i] = st.peek();
-                }
-            }
+            st.push(i);
+        }
+
+        while(st.size() > 0) {
+            ans[st.peek()] = -1;
+            st.pop();
         }
 
         return ans;
     }
-
 }

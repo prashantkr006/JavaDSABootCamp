@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Sliding_Window_Max",
+            "request": "launch",
+            "mainClass": "Stack.Sliding_Window_Max",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch Largest_Histogram",
+            "request": "launch",
+            "mainClass": "Stack.Largest_Histogram",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockSpan",
+            "request": "launch",
+            "mainClass": "Stack.StockSpan",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch NSE_LEFT",
+            "request": "launch",
+            "mainClass": "Stack.NSE_LEFT",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch NSE_RIGHT",
+            "request": "launch",
+            "mainClass": "Stack.NSE_RIGHT",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch NGE_LEFT",
+            "request": "launch",
+            "mainClass": "Stack.NGE_LEFT",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch Next_Greater_Element",
+            "request": "launch",
+            "mainClass": "Stack.Next_Greater_Element",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
             "name": "Launch SearchInInfinity",
             "request": "launch",
             "mainClass": "Searching.SearchInInfinity",
