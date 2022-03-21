@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Say_Digits",
+            "request": "launch",
+            "mainClass": "Say_Digits",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch Find_Duplicates",
+            "request": "launch",
+            "mainClass": "Find_Duplicates",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
             "name": "Launch Sliding_Window_Max",
             "request": "launch",
             "mainClass": "Stack.Sliding_Window_Max",

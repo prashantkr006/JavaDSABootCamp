@@ -1,4 +1,4 @@
-package Searching.Binary_Search;
+package Binary_Search;
 import java.util.*;
 public class Search {
     public static void main(String[] args) {
