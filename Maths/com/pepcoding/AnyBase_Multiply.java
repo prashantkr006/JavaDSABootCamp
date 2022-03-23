@@ -1,4 +1,5 @@
-package Maths.src.com.pepcoding;
+package com.pepcoding;
+
 import java.util.*;
 public class AnyBase_Multiply {
     public static void main(String[] args) {

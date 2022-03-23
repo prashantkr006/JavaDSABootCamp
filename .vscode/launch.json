@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "Sort.MergeSort",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multiply",
+            "request": "launch",
+            "mainClass": "Multiply",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergseSortedArrays",
+            "request": "launch",
+            "mainClass": "MergseSortedArrays",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch SelectionSort",
+            "request": "launch",
+            "mainClass": "Sort.SelectionSort",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "Sort.BubbleSort",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
             "name": "Launch Triangle",
             "request": "launch",
             "mainClass": "patterns.Triangle",

@@ -8,12 +8,12 @@ public class Triangle {
         if(rows == 0)
             return;
         if(col == rows) {
-            System.out.println();
             printTriangle(rows-1, 0);
+            System.out.println();
         }
         else{
-            System.out.print("* ");
             printTriangle(rows, col+1);
+            System.out.print("* ");
         }
     }
 }

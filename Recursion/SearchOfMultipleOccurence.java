@@ -8,7 +8,7 @@ public class SearchOfMultipleOccurence {
         System.out.println(multipleOccurence(arr, target, 0, ans));
     }
 
-    public static ArrayList multipleOccurence(int[] arr, int target, int index, ArrayList<Integer> ans)
+    public static ArrayList<Integer> multipleOccurence(int[] arr, int target, int index, ArrayList<Integer> ans)
     {
         if(index == arr.length)
             return ans;
