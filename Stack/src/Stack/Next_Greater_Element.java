@@ -3,15 +3,16 @@ import java.util.*;
 
 public class Next_Greater_Element {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int[] arr = new int[n];
 
-        for(int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
+            for(int i = 0; i < n; i++) {
+                arr[i] = sc.nextInt();
+            }
+
+            System.out.println(Arrays.toString(NGER(arr, n)));
         }
-
-        System.out.println(Arrays.toString(NGER(arr, n)));
     }
 
     static int[] NGER(int[] arr, int n) {

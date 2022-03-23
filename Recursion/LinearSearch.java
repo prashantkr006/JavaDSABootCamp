@@ -1,17 +1,14 @@
 public class LinearSearch {
     public static void main(String[] args) {
         int[] arr = {2, 4, 7, 10, 13, 20};
-        int target = 9;
-        System.out.println(getElement(arr, arr.length, target));
+        int target = 10;
+        System.out.println(getElement(arr, 0, target));
     }
 
-    public static boolean getElement(int[] arr, int size, int target) {
-        if(size == 0)
-            return false;
+    public static int getElement(int[] arr, int index, int target) {
+        if(index > arr.length-1)
+            return -1;
         
-        if(target == arr[size - 1])
-            return true;
-        else
-            return getElement(arr, size-1, target);
+        return arr[index] == target ? index : getElement(arr, index+1, target);
     }
 }

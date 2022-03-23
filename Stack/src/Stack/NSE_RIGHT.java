@@ -4,14 +4,15 @@ import java.util.*;
 public class NSE_RIGHT {
     public static void main(String[] args) throws Exception {
         try {
-            Scanner sc = new Scanner(System.in);
-            int n = sc.nextInt();
-            int[] arr = new int[n];
-            for(int i = 0; i < n; i++) {
-                arr[i] = sc.nextInt();
-            }
+            try (Scanner sc = new Scanner(System.in)) {
+                int n = sc.nextInt();
+                int[] arr = new int[n];
+                for(int i = 0; i < n; i++) {
+                    arr[i] = sc.nextInt();
+                }
 
-            System.out.print(Arrays.toString(nser(arr, n)));
+                System.out.print(Arrays.toString(nser(arr, n)));
+            }
         } catch(Exception e) {
             System.out.print(e);
         }

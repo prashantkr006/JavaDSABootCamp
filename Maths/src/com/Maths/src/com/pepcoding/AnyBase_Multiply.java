@@ -1,14 +1,15 @@
-package com.pepcoding;
+package Maths.src.com.pepcoding;
 import java.util.*;
 public class AnyBase_Multiply {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        int b = scn.nextInt();
-        int n1 = scn.nextInt();
-        int n2 = scn.nextInt();
+        try (Scanner scn = new Scanner(System.in)) {
+            int b = scn.nextInt();
+            int n1 = scn.nextInt();
+            int n2 = scn.nextInt();
 
-        int d = getProduct(b, n1, n2);
-        System.out.println(d);
+            int d = getProduct(b, n1, n2);
+            System.out.println(d);
+        }
     }
 
     public static int getProduct(int b, int n1, int n2){

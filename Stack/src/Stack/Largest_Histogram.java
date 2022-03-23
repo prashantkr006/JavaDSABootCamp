@@ -4,14 +4,15 @@ import java.util.*
 public class Largest_Histogram {
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(System.in);
-            int n = sc.nextInt();
-            int[] heights = new int[n];
-            for(int i = 0; i < n; i++) {
-                heights[i] = sc.nextInt();
-            }
+            try (Scanner sc = new Scanner(System.in)) {
+                int n = sc.nextInt();
+                int[] heights = new int[n];
+                for(int i = 0; i < n; i++) {
+                    heights[i] = sc.nextInt();
+                }
 
-            System.out.println(largestRectangleArea(heights));
+                System.out.println(largestRectangleArea(heights));
+            }
         } catch (Exception e) {
             System.out.println(e);
         }

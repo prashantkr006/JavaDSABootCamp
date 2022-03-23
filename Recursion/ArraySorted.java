@@ -1,6 +1,6 @@
 public class ArraySorted {
     public static void main(String[] args) {
-        int[] arr = {2, 4, 6, 19, 30};
+        int[] arr = {2, 4, 5, 19, 30};
         System.out.println(isSorted(arr, arr.length));
     }
 
@@ -9,9 +9,6 @@ public class ArraySorted {
         if(arr == null || size < 2)
             return true;
 
-        if(arr[size - 2] > arr[size - 1])
-            return false;
-        else
-            return isSorted(arr, size-1);
+        return (arr[size-1] > arr[size-2]) && isSorted(arr, size-1);
     }
 }

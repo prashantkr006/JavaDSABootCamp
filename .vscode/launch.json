@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Triangle",
+            "request": "launch",
+            "mainClass": "patterns.Triangle",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotatedBinarySearch",
+            "request": "launch",
+            "mainClass": "RotatedBinarySearch",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchOfMultipleOccurence",
+            "request": "launch",
+            "mainClass": "SearchOfMultipleOccurence",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch Count_Zeros",
+            "request": "launch",
+            "mainClass": "Count_Zeros",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringReverse",
+            "request": "launch",
+            "mainClass": "StringReverse",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetGifts",
+            "request": "launch",
+            "mainClass": "GetGifts",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySum",
+            "request": "launch",
+            "mainClass": "ArraySum",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySorted",
+            "request": "launch",
+            "mainClass": "ArraySorted",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
             "name": "Launch Say_Digits",
             "request": "launch",
             "mainClass": "Say_Digits",
