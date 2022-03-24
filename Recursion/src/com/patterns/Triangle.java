@@ -1,4 +1,4 @@
-package patterns;
+package com.patterns;
 
 public class Triangle {
     public static void main(String[] args) {

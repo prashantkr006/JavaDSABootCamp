@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Power_log",
+            "request": "launch",
+            "mainClass": "Power_log",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfDigits",
+            "request": "launch",
+            "mainClass": "SumOfDigits",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckPalindrome",
+            "request": "launch",
+            "mainClass": "CheckPalindrome",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power",
+            "request": "launch",
+            "mainClass": "Power",
+            "projectName": "JavaDSA_9df9e657"
+        },
+        {
+            "type": "java",
             "name": "Launch MergeSort",
             "request": "launch",
             "mainClass": "Sort.MergeSort",

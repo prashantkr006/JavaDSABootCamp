@@ -1,3 +1,5 @@
+package com.problems;
+
 public class Say_Digits {
     public static void main(String[] args) {
         digits(423);

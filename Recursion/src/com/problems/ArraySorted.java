@@ -1,3 +1,5 @@
+package com.problems;
+
 public class ArraySorted {
     public static void main(String[] args) {
         int[] arr = {2, 4, 5, 19, 30};

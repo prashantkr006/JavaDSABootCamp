@@ -1,3 +1,5 @@
+package com.problems;
+
 import java.util.ArrayList;
 
 public class SearchOfMultipleOccurence {

@@ -1,3 +1,5 @@
+package com.problems;
+
 public class StringReverse {
     public static void main(String[] args) {
         String str= "Prashant";
