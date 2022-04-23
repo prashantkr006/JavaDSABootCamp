@@ -1,4 +1,6 @@
-package com.LinkedList.pojo;
+package com.LinkedList.doubly;
+
+import com.LinkedList.doubly.DoublyLinkedList;
 
 public class Main_DoublyLinkedList {
     public static void main(String[] args) {

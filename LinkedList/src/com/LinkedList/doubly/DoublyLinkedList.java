@@ -1,4 +1,4 @@
-package com.LinkedList.pojo;
+package com.LinkedList.doubly;
 
 public class DoublyLinkedList {
     private Node head;

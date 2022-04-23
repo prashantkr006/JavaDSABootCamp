@@ -1,4 +1,6 @@
-package com.LinkedList.pojo;
+package com.LinkedList.single;
+
+import com.LinkedList.single.LinkedList;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.LinkedList.pojo;
+package com.LinkedList.single;
 
 public class LinkedList {
     private Node head;
